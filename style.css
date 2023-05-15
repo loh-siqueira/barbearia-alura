@@ -1,22 +1,38 @@
-body{
-    background-color: #ccc;
+body {
+	background-color: # white
+;
 }
-h1{
-   
-    text-align: center;
+.principal{
+	background-color: #ccc;
 }
-p{
-    text-align: center;
-    
+#banner {
+	width:100%;
 }
-#missão{
-    font-size: 20px;
-}
-em strong{
-    color: red;
-}
-    
 
 
-    
+h1 {
+	text-align: center
+}
 
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
+}
+
+
+.itens{
+	font-style: italic;
+}
+.beneficios{
+	background-color: white;
+}
