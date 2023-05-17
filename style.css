@@ -1,9 +1,10 @@
 body {
-	background-color: # white
-;
+	background-color: white
+
 }
 .principal{
 	background-color: #ccc;
+	padding: 20px;
 }
 #banner {
 	width:100%;
@@ -11,7 +12,7 @@ body {
 
 
 h1 {
-	text-align: center
+	text-align: center;
 }
 
 p {
@@ -19,10 +20,7 @@ p {
 }
 
 #missao {
-	font-size: 20px
-}
-
-	font-size: 20px
+	font-size: 20px;
 }
 
 em strong {
@@ -35,4 +33,16 @@ em strong {
 }
 .beneficios{
 	background-color: white;
+	padding: 20px;
+}
+h2{
+	text-align: center;
+}
+.imagem-beneficios{
+	width: 50%;
+}
+ul{
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
 }
