@@ -1,5 +1,5 @@
 header{
-    background-color: #ccc;
+    background: rgb(247, 232, 103) ;
     padding: 20px 0;
 }
 .caixa{
@@ -33,4 +33,15 @@ nav a{
 .produtos li{
     display: inline-block;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 50px 0;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produtos-preco{
+    font-size: 22px;
+    font-weight: bold;
 }
