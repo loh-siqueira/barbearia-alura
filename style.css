@@ -74,7 +74,7 @@ footer{
 }
 
 footer p{
-	color: rgb(0, 0, 0);
+	color:#000000;
 	font-size: 12px;
 }
 
@@ -85,6 +85,14 @@ main{
 form{
 	margin: 40px 0;
 }
+input{
+	border: 2px solid  #000000;
+	border-radius: 5px
+}
+input:hover{
+	border: 2px solid rgb(82, 253, 188);
+}
+
 form label{
 	display: block;
 	font-size: 20px;
