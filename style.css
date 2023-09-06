@@ -98,7 +98,7 @@ form label{
 	font-size: 20px;
 	margin: 5px;
 }
-form input-padrao{
+form .input-padrao{
 	display: block;
 	margin: 0 0 20px 0;
 	padding: 10px 15px;
@@ -107,4 +107,20 @@ form input-padrao{
 
 textarea{
 	margin: 0 0 20px;
+}
+.checkbox{
+	margin: 20px 0;
+} 
+.enviar{
+	width: 40%;
+	padding: 8px 0 ;
+	background-color: #01d9ff;
+	font-size: 18px;
+	font-weight: bold;
+	transition: 1s all;
+}
+.enviar:hover{
+	background-color: rgb(82, 253, 188);
+	transform: scale(1.05);
+	
 }
