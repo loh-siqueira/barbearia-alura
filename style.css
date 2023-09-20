@@ -122,5 +122,16 @@ textarea{
 .enviar:hover{
 	background-color: rgb(82, 253, 188);
 	transform: scale(1.05);
-	
+}
+table{
+	margin: 20px 0 40px;
+}
+thead{
+	background:  #01d9ff;
+	color: white;
+	font-weight: bold;
+}
+td{
+	border: 2px solid black;
+	padding: 15px 65px;
 }
