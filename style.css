@@ -135,3 +135,7 @@ td{
 	border: 2px solid black;
 	padding: 15px 65px;
 }
+/*css da página principal*/
+.banner{
+	width: 100%;
+}
