@@ -1,5 +1,5 @@
 header {
-	background: #01d9ff;
+	background: #ccc;
 	padding: 20px 0;
 }
 
@@ -29,14 +29,14 @@ nav a {
 }
 
 nav a:hover{
-	color: rgb(82, 253, 188);
-	
+	color: #c78c19;
+	text-decoration: underline;
 }
+
 .produtos{
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px;
-		
 }
 .produtos li{
 	display: inline-block;
@@ -47,117 +47,163 @@ nav a:hover{
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid rgb(0, 0, 0);
+	border: 2px solid black;
 	border-radius: 10px;
-}￼
+}
 
+.produtos h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produtos li:hover{
+	border-color: #c78c19;
+	
+}
 
 .produtos li:hover h2{
-	font-size: 35px;
+	font-size: 40px;
 }
+
 .produtos li:active{
-	border-color:  rgb(82, 253, 188);
+	border-color: #088c19;
 }
+
 
 .produtos-preco{
 	font-size: 22px;
 	font-weight: bold;
 	margin: 10px;
 }
-.produtos-descricao{
-	font-size: 18px;
-}
+
 footer{
-	background-color: #01d9ff;
+	background-color: #ccc;
 	text-align: center;
+	background: url(bg.jpg);
 	padding: 40px 0;
 }
 
 footer p{
-	color:#000000;
+	color: white;
 	font-size: 12px;
 }
 
 main{
 	width: 940px;
-	margin: 0% auto;
-} 
+	margin: 0 auto;
+}
+
 form{
 	margin: 40px 0;
 }
+
 input{
-	border: 2px solid  #000000;
-	border-radius: 5px
+	
+	border-radius: 5px;
+
 }
-input:hover{
-	border: 2px solid rgb(82, 253, 188);
-}
+
+
 
 form label{
 	display: block;
 	font-size: 20px;
-	margin: 5px;
+	margin: 0 0 10px 0;
+	
 }
+
 form .input-padrao{
 	display: block;
 	margin: 0 0 20px 0;
-	padding: 10px 15px;
+	padding: 10px 25px;
 	width: 50%;
 }
 
 textarea{
-	margin: 0 0 20px;
+	margin:0 0 20px 0;
 }
+
 .checkbox{
 	margin: 20px 0;
-} 
+}
+
 .enviar{
 	width: 40%;
-	padding: 8px 0 ;
-	background-color: #01d9ff;
+	padding: 15px 0;
+	background-color:orange ;
+	color: aquamarine;
 	font-size: 18px;
 	font-weight: bold;
-	transition: 1s all;
+	transition: 0.5s all;
 }
+
 .enviar:hover{
-	background-color: rgb(82, 253, 188);
+	background-color: black;
+	color: white;
 	transform: scale(1.05);
 }
+
 table{
 	margin: 20px 0 40px;
 }
+
 thead{
-	background:  #01d9ff;
+	background: #555;
 	color: white;
 	font-weight: bold;
 }
+
 td{
-	border: 2px solid black;
-	padding: 15px 65px;
+	border: 2px solid #000;
+	padding: 15px 66px;
 }
-/*css da página principal*/
+
+/*CSS da página principal*/
 .banner{
 	width: 100%;
 }
+
 .titulo-centralizado{
+	
 	text-align: center;
-	font-size: 2em;
+	font-size: 2.5em;
 	margin: 1em 0 1em;
+	font-family: 'Bebas Neue', sans-serif;
+
 }
-.pricipal p{
+
+.principal p{
 	margin: 0 0 1em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	text-align: justify;
+	
 }
+
 .principal strong{
 	font-weight: bold;
 }
+
 .principal em{
 	font-style: italic;
 }
+
 .imagembeneficios{
 	width: 60%;
 }
-.utensilios{ 
+
+.utensilios{
 	width: 150px;
 	float: left;
-	margin: 0 20px 20px 0 ;
+	margin: 0 20px 20px 0;
 }
+
+.mapa{
+	padding: 3em 0;
+}
+
+.mapa p{
+	margin: 0 0 2em;
+	text-align: center;
+}
+

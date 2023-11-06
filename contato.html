@@ -5,90 +5,91 @@
 		<title>Produtos - Barbearia Alura</title>
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
-		
 	</head>
-	<body>
-		<header>
-			<div class="caixa">
-				<h1><img src="logo.png"></h1>
+	<header>
+		<div class="caixa">
+			<h1><img src="logo.png"></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="produtos.html">Produtos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+	</header>
 
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="produtos.html">Produtos</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>	
-		<main>
-			<form actdiion="">
+	<main>
+		<form action="">
+			<label for="nomesobrenome">Nome e Sobrenome</label>
+			<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Digite seu nome e sobrenome">
+
+			<label for="email">Email</label>
+			<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+			<label for="mensagem">Digite sua mensagem:</label>
+			<textarea name="mensagem" id="mensagem" cols="62" rows="10" placeholder="Digite aqui sua mensagem"></textarea>
+
 				<div>
-				<label for="nomesobrenome" >nome e sobremome</label>
-				<input type="text" id="nomesobrenome"class="input-padrao" required
-				placeholder="Digite aqui seu nome e sobrenome">
-
-				<label for="email">Email</label>
-				<input type="text" id="email" class="input-padrao" required 
-				placeholder="seuemail@escola,pr.gov.br">
-
+					<label for="">Como prefere o nosso contato?</label>
 				
-				<label for="telefone">Telefone</label>
-				<input type="text" id="telefone" class="input-padrao" required 
-				placeholder="+xx (xx) xxxxxxxxx">
+					
+					<label for="email-radio"><input type="radio" value="email" id="email-radio" name="contato">Email</label>
+		
+					
+					
+					<label for="ligaçao"><input type="radio" value="ligaçao" id="ligaçao" name="contato">Ligação</label>
+		
+					
+					<label for="whatsapp-radio"><input type="radio" value="whatsapp" id="whatsapp-radio" name="contato">Whatsapp</label>
+			    </div>
 				
+			<label><input class="checkbox" type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+			
 
-				<label for="mensagem">Digite sua mensagem:</label>
-				<textarea name="mensagem" id="mensagem" cols="62" rows="10"  placeholder=" Digite aqui sua menssagem"></textarea >
+			<input class="enviar" type="submit" value="Clique aqui!!">
 
-				<label for="contato">Como prefere o nosso contato?</label>
+		</form>
 
-				
-				<label for="email-radio"><input type="radio" value="email" id="email-radio" name="contato">email</label>
+		<table>
+			<thead>
+				<tr>
+					<td>Dia </td>
+					<td>Horário</td>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<td>Segunda</td>
+					<td>8h - 20h</td>
+				</tr>
+				<tr>
+					<td>Quarta</td>
+					<td>8h - 20h</td>
+				</tr>
+				<tr>
+					<td>Sexta</td>
+					<td>8h - 20h</td>
+				</tr>
+			</tbody>
+			
+		</table>
 
-				
-				<label for="ligaçao"><input type="radio" value="ligaçao" id="ligaçao" name="contato">ligaçao</label>
-
-				
-				<label for="whatsap"><input type="radio" value="whatsap" id="whatsap-radio" name="contato">whatsap</label>
-			</div>
-
-			<label><input class="checkbox" type="checkbox">Gostaria de receber nossas novidades por e-mail</label>
- 		
+	</main>
 
 	
+	
+	
+	
+	<footer>
 
-				<input class="enviar" type="submit" value="clique aqui">
-			</form>
-			<table>
-				<thead>
-					<tr>
-						<td>Dia</td>
-						<TD>Horário</TD>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Segunda</td>
-						<td>8h ~ 20h</td>
-					</tr>
-					<tr>
-						<td>Quarta</td>
-						<td>8h ~ 20h</td>
-					</tr>
-					<tr>
-						<td>sexta</td>
-						<td>8h ~ 20h</td>
-					</tr>
-				</tbody>
-				
-			</table>
-		</main>
+
+		<img src="logo-branco.png" alt="">
+		<p>&copy; Copyright - Criado por loh-siqueira 2023 </p>
+	</footer>
 		
-
-
-		<footer>
-			<img src="logo.png" alt="">
-			<p>&copy;Copyright - criado por loh-siqueira💜2023</p>
-		</footer>
-	</body> 
+	<body>
+		
